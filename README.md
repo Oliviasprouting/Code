@@ -1,0 +1,40 @@
+# Code
+import turtle as tle
+
+a= 89
+b= 55
+c= (b**2/a)
+d= (c**2/b)
+e= (d**2/c)
+f= (e**2/d)
+
+
+tle.forward(a)
+tle.left(90) 
+tle.forward(b)
+tle.left(90)
+tle.forward(a)
+tle.left(90)
+tle.forward(b)
+tle.left(90)
+tle.forward(a)
+tle.backward(c)
+tle.left(90)
+tle.forward(b)
+tle.right(90)
+tle.forward(c)
+tle.right(90)
+tle.forward(b)
+tle.backward(d)
+tle.right(90)
+tle.forward(c)
+tle.left(90)
+tle.forward(d)
+tle.left(90)
+tle.forward(e)
+tle.left(90)
+tle.forward(d)
+tle.backward(d)
+tle.forward(f)
+tle.left(90)
+tle.forward(e)
